@@ -1,3 +1,17 @@
 Simple program to turn python lists into unicode tables.
+Planning to add support for Restructured Text tables later.
 
 Usage in python file.
+
+Example output:
+
+┌──────┬────────┬──────────────────────────┐
+│ Foo  │  Bar   │           Quux           │
+├──────┼────────┼──────────────────────────┤
+│ Baz  │ Wubble │          Wobble          │
+│ Baz  │ Wubble │          Wobble          │
+│ Baz  │ Wubble │          Wobble          │
+│ Baz  │ Wubble │          Wobble          │
+│ Baz  │ Wubble │ WobbleWobbleWobbleWobble │
+└──────┴────────┴──────────────────────────┘
+
